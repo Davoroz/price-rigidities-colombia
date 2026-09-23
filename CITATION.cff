@@ -8,6 +8,10 @@ type: software
 date-released: 2025-07-02
 repository-code: "https://github.com/Davoroz06/price-rigidities-colombia"
 license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22926028"
+    description: "Anonymized dataset (Zenodo)"
 keywords:
   - price rigidity
   - sticky prices
@@ -25,3 +29,13 @@ preferred-citation:
   institution:
     name: "Universidad ICESI – Dalhousie University"
   year: 2025
+references:
+  - type: data
+    title: "Daily online prices from four Colombian retailers (2023–2024)"
+    authors:
+      - family-names: "Orozco Ríos"
+        given-names: "David Mauricio"
+    doi: "10.5281/zenodo.22926028"
+    url: "https://doi.org/10.5281/zenodo.22926028"
+    publisher:
+      name: "Zenodo"

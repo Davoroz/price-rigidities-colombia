@@ -1,10 +1,12 @@
 # Nominal Rigidities in Online Prices — Colombia
 
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22926028.svg)](https://doi.org/10.5281/zenodo.22926028)
+
 **How often, how much and in which direction do online prices change, and does the answer depend on the type of business selling them?**
 
 This repository has the data pipeline, estimations and results of my master's thesis. It uses about **820,000 daily prices for 14,425 products**, web-scraped from four large Colombian online stores (anonymized as A1, A2, B and C, as in the paper) between August 2023 and July 2024. With them, I measure price rigidity across three online business models: multichannel supermarkets, a hard-discount store and a price-comparison / delivery platform.
 
-📄 **Paper:** [English](paper/nominal_rigidities_online_prices_colombia_EN.pdf) · [Español](paper/rigideces_nominales_precios_en_linea_colombia_ES.pdf) · [Defense slides (ES)](paper/slides_thesis_defense_ES.pdf)
+📦 **Dataset:** [Zenodo, DOI 10.5281/zenodo.22926028](https://doi.org/10.5281/zenodo.22926028) · 📄 **Paper:** [English](paper/nominal_rigidities_online_prices_colombia_EN.pdf) · [Español](paper/rigideces_nominales_precios_en_linea_colombia_ES.pdf) · [Defense slides (ES)](paper/slides_thesis_defense_ES.pdf)
 
 ---
 
@@ -106,7 +108,7 @@ jupyter lab notebooks/00_master.ipynb
 ```
 
 - **With the sample only:** open `notebooks/20_estimations.ipynb` and `30_results.ipynb` and run them. The filter step switches to `data/sample/` automatically.
-- **Full replication:** download the anonymized dataset (see [`data/README.md`](data/README.md)), save it as `data/interim/Retailer_data.csv`, and run steps 2–3 of `00_master.ipynb`.
+- **Full replication:** download the anonymized dataset from [Zenodo](https://doi.org/10.5281/zenodo.22926028), unzip it and save `Retailer_data.csv` in `data/interim/`, and run steps 2–3 of `00_master.ipynb`.
 
 ## Tech stack
 
@@ -117,6 +119,8 @@ Python (pandas, NumPy, SciPy, matplotlib, seaborn, papermill) · Selenium web sc
 If you use this code or data, please cite:
 
 > Orozco Ríos, D. M. (2025). *Nominal Rigidities in Online Prices: An Analysis of Differences Across Types of Online Businesses*. Master's thesis, Universidad ICESI – Dalhousie University.
+
+Dataset: Orozco Ríos, D. M. (2026). *Daily online prices from four Colombian retailers (2023–2024)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.22926028
 
 See also [`CITATION.cff`](CITATION.cff).
 
