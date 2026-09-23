@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy
+scipy
+matplotlib
+seaborn
+openpyxl
+papermill
+jupyterlab

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Nominal Rigidities in Online Prices: An Analysis of Differences Across Types of Online Businesses"
+authors:
+  - family-names: "Orozco Ríos"
+    given-names: "David Mauricio"
+type: software
+date-released: 2025-07-02
+repository-code: "https://github.com/Davoroz06/price-rigidities-colombia"
+license: MIT
+keywords:
+  - price rigidity
+  - sticky prices
+  - online prices
+  - web scraping
+  - Colombia
+  - monetary policy
+preferred-citation:
+  type: thesis
+  thesis-type: "Master's thesis"
+  title: "Nominal Rigidities in Online Prices: An Analysis of Differences Across Types of Online Businesses"
+  authors:
+    - family-names: "Orozco Ríos"
+      given-names: "David Mauricio"
+  institution:
+    name: "Universidad ICESI – Dalhousie University"
+  year: 2025
