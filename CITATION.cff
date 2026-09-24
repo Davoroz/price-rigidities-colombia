@@ -6,7 +6,7 @@ authors:
     given-names: "David Mauricio"
 type: software
 date-released: 2025-07-02
-repository-code: "https://github.com/Davoroz06/price-rigidities-colombia"
+repository-code: "https://github.com/davoroz/price-rigidities-colombia"
 license: MIT
 identifiers:
   - type: doi

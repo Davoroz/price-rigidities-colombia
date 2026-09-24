@@ -100,7 +100,7 @@ Products must have at least four observations in every month of the sample. The 
 ## How to run
 
 ```bash
-git clone https://github.com/Davoroz06/price-rigidities-colombia.git
+git clone https://github.com/davoroz/price-rigidities-colombia.git
 cd price-rigidities-colombia
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
